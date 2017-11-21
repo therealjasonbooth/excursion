@@ -1,0 +1,91 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  color: #fff;
+}
+
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+p {
+	font-size: 21px;
+	line-height: 30px;
+}
+
+a {
+	color: #000;
+	background-color:  aquamarine;
+    border-radius: 6px;
+	transition:all .4s ease;
+	-moz-transition:all .4s ease;
+	-webkit-transition:all .4s ease;
+	-o-transition:all .4s ease;
+	text-decoration: none;
+}
+
+a:hover {
+	transform: translateY(20px);
+}
+
+
+
+.main-content {
+	margin: auto;
+	display: flex;
+	max-width: 1300px;
+	padding: 100px 0;
+}
+
+.main-title {
+	line-height: 70px;
+	margin: auto;
+}
+
+.p-link {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    padding: 28px 30px;
+}
+
+.image-section {
+	position: relative;
+	background-position: 50% 50%;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin: 0 auto;
+  	width: 100%;
+  	height: 50%;
+	background-image: url(../../resources/img/camp2.jpg);
+}
+
+.text-position {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.soon-section {
+	margin: 200px 0;
+}
+
+.footer {
+	padding: 40px 0;
+	border-top: solid 1px #fff;
+	color: grey;
+}
+
